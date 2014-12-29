@@ -1,0 +1,21 @@
+/web/bundles/
+/web/i18n/
+/app/bootstrap.php.cache
+/app/cache/*
+/app/config/parameters.yml
+/app/logs/*
+/build/
+/vendor/
+/bin/
+/composer.lock
+composer.phar
+/nbproject
+/.DS_Store
+.DS_Store
+/.idea
+.idea
+*.php~
+/backups/
+/*release*/
+/app/phpunit.xml
+/deploy tasks

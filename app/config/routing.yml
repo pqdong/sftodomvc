@@ -1,0 +1,4 @@
+todo_mvc:
+    resource: "@TodoMVCBundle/Controller"
+    type:     annotation
+    prefix:   /
