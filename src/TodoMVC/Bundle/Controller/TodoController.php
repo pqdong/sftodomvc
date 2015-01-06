@@ -2,19 +2,10 @@
 
 namespace TodoMVC\Bundle\Controller;
 
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+use FOS\RestBundle\Routing\ClassResourceInterface;
 
-class TodoController extends Controller
-{
-    /**
-     * @Route("/api/todo")
-     * @Template()
-     */
-    public function indexAction()
-    {
-        return array();    
-    }
-
+class TodoController implements ClassResourceInterface
+{    
+    public function cgetAction()
+    {} // "get_todos"	[GET] /todos
 }

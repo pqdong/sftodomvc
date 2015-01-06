@@ -1,4 +1,8 @@
 todo_mvc:
-    resource: "@TodoMVCBundle/Controller"
+    resource: "@TodoMVCBundle/Controller/DefaultController.php"
     type:     annotation
     prefix:   /
+todo_mvc_api:
+    resource: "@TodoMVCBundle/Controller/TodoController.php"
+    type:     rest
+    prefix:   /api

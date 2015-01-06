@@ -2,7 +2,7 @@ var app = app || {};
 
 var TodoList = Backbone.Collection.extend({
 	model: app.Todo,
-	url: '/app_dev.php/api/todo',
+	url: '/app_dev.php/api/todos',
 	completed: function() {
 		return this.filter(function(todo){
 			return todo.get('completed');	
