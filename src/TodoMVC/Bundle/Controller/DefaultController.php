@@ -15,10 +15,6 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-    	$todos = $this->getDoctrine()
-			->getRepository('TodoMVCBundle:Todo')
-			->findAll();
-
-        return array('todos' => $todos);
+        return array('');
     }
 }

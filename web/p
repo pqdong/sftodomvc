@@ -1,0 +1,18 @@
+[06-Jan-2015 06:09:06 Europe/Berlin] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to create the cache directory (/Users/dongphung/Workspace/todomvc/sftodomvc/app/cache/prod)
+' in /Users/dongphung/Workspace/todomvc/sftodomvc/app/bootstrap.php.cache:2590
+Stack trace:
+#0 /Users/dongphung/Workspace/todomvc/sftodomvc/app/bootstrap.php.cache(2551): Symfony\Component\HttpKernel\Kernel->buildContainer()
+#1 /Users/dongphung/Workspace/todomvc/sftodomvc/app/bootstrap.php.cache(2331): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#2 /Users/dongphung/Workspace/todomvc/sftodomvc/app/bootstrap.php.cache(2362): Symfony\Component\HttpKernel\Kernel->boot()
+#3 /Users/dongphung/Workspace/todomvc/sftodomvc/web/app.php(28): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#4 {main}
+  thrown in /Users/dongphung/Workspace/todomvc/sftodomvc/app/bootstrap.php.cache on line 2590
+[07-Jan-2015 04:03:40 Europe/Berlin] PHP Fatal error:  Call to undefined method TodoMVC\Bundle\Controller\TodoController::getDoctrine() in /Users/dongphung/Workspace/todomvc/sftodomvc/src/TodoMVC/Bundle/Controller/TodoController.php on line 13
+[07-Jan-2015 04:03:40 Europe/Berlin] PHP Stack trace:
+[07-Jan-2015 04:03:40 Europe/Berlin] PHP   1. {main}() /Users/dongphung/Workspace/todomvc/sftodomvc/web/app_dev.php:0
+[07-Jan-2015 04:03:40 Europe/Berlin] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /Users/dongphung/Workspace/todomvc/sftodomvc/web/app_dev.php:28
+[07-Jan-2015 04:03:40 Europe/Berlin] PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /Users/dongphung/Workspace/todomvc/sftodomvc/app/bootstrap.php.cache:2364
+[07-Jan-2015 04:03:40 Europe/Berlin] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /Users/dongphung/Workspace/todomvc/sftodomvc/app/bootstrap.php.cache:3119
+[07-Jan-2015 04:03:40 Europe/Berlin] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /Users/dongphung/Workspace/todomvc/sftodomvc/app/bootstrap.php.cache:2970
+[07-Jan-2015 04:03:40 Europe/Berlin] PHP   6. call_user_func_array() /Users/dongphung/Workspace/todomvc/sftodomvc/app/bootstrap.php.cache:3008
+[07-Jan-2015 04:03:40 Europe/Berlin] PHP   7. TodoMVC\Bundle\Controller\TodoController->cgetAction() /Users/dongphung/Workspace/todomvc/sftodomvc/app/bootstrap.php.cache:3008

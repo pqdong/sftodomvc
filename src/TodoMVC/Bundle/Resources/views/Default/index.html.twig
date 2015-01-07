@@ -16,16 +16,6 @@
 				<input id="toggle-all" type="checkbox">
 				<label for="toggle-all">Mark all as complete</label>
 				<ul id="todo-list">
-				{% for todo in todos %}					
-					<li>
-						<div class="view">
-							<input class="toggle" type="checkbox" {% if(todo.completed) %} checked {% endif %} >
-							<label>{{ todo.title }}</label>
-							<button class="destroy"></button>
-						</div>
-						<input class="edit" value="{{ todo.title }}" data-todo-id="{{ todo.id }}" >
-					</li>
-				{% endfor %}
 				</ul>			
 			</section>
 			<footer id="footer"></footer>
