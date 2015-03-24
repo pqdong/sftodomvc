@@ -3,7 +3,7 @@ TodoMVC.module('TodoList.Views', function(Views, App, Backbone, Marionette, $, _
 		tagName: 'li',
 		template: '#template-todoItemView',
 		ui: {
-			ecit: '.edit'
+			edit: '.edit'
 		},
 		events: {
 			'click .destroy': 'destroy',
